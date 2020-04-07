@@ -3,3 +3,5 @@
 
 Files are respectively made one by one. I hope it's everything ok!
 Have Fun!
+
+P.S. Added some Edge Cases!!!
