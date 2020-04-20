@@ -15,11 +15,11 @@ def createEdges (N, file):
         used.append(poped)
     print (rd.choice(used) + 1, rd.choice(used) + 1, file = file)
 
-for t_i in range(20):
-    file = open("/Users/alexanders_mac/Desktop/Profiteus/NTUA/Programming Languages 1/PL1_2020/TestCases/InputCorona/coronainput{}.txt".format(t_i), mode = 'w+')
+for t_i in range(10):
+    file = open("/Users/alexanders_mac/Desktop/Profiteus/NTUA/Programming Languages 1/PL1_2020/TestCases/InputCoronaEDGE/coronainputEDGE{}.txt".format(t_i), mode = 'w+')
     print(10,file = file)
     for j in range(10):
         N = rd.choice(All)
         print(N,N, file = file)
         createEdges(N,file)
-    file.close()        
+    file.close()  
